@@ -13,6 +13,7 @@ const { mix } = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .js('resources/assets/js/app-landing.js', 'public/js/app-landing.js')
+   // .js('node_modules/bootstrap-slider/dist/bootstrap-slider.js', 'public/js/bootstrap-slider.js')
    .sass('resources/assets/sass/app.scss', 'public/css')
    .less('node_modules/bootstrap-less/bootstrap/bootstrap.less', 'public/css/bootstrap.css')
    .less('resources/assets/less/adminlte-app.less','public/css/adminlte-app.css')
@@ -22,7 +23,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
        'node_modules/admin-lte/dist/css/skins/_all-skins.css',
        'public/css/adminlte-app.css',
        'node_modules/icheck/skins/square/blue.css',
-       'public/css/toastr.css'
+       'public/css/toastr.css',
+       'node_modules/bootstrap-slider/dist/css/bootstrap-slider.css'
    ], 'public/css/all.css')
    .combine([
        'public/css/bootstrap.css',
