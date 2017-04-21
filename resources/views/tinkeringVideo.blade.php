@@ -18,6 +18,8 @@
                     <button onclick="document.getElementById('video1').volume-=0.1">Disminuir el Volumen</button>
                 </div>
 
+                <div class="test">Audio Another day in paradise:</div>
+
                 <audio id="demo2" src="https://upload.wikimedia.org/wikipedia/en/9/9f/Sample_of_%22Another_Day_in_Paradise%22.ogg" preload="auto" controls></audio>
 
                 <div>
