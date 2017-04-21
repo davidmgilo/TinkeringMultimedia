@@ -34,6 +34,7 @@ Menu::macro('sidebar', function () {
 //        ->url('http://www.google.com', 'Google')
         ->add(Menu::adminlteSeparator('Acacha Adminlte'))
         #adminlte_menu
+        ->add(Link::toUrl('tinkeringVideojs', '<i class="fa fa-link"></i><span>TinkeringVideojs</span>'))
         ->add(Link::toUrl('tinkeringVideo', '<i class="fa fa-link"></i><span>TinkeringVideo</span>'))
         ->add(Link::toUrl('d3demo', '<i class="fa fa-link"></i><span>D3demo</span>'))
         ->add(Link::toUrl('svgslider', '<i class="fa fa-link"></i><span>Svgslider</span>'))
