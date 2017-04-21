@@ -34,6 +34,7 @@ Menu::macro('sidebar', function () {
 //        ->url('http://www.google.com', 'Google')
         ->add(Menu::adminlteSeparator('Acacha Adminlte'))
         #adminlte_menu
+        ->add(Link::toUrl('d3demo', '<i class="fa fa-link"></i><span>D3demo</span>'))
         ->add(Link::toUrl('svgslider', '<i class="fa fa-link"></i><span>Svgslider</span>'))
         ->add(Link::toUrl('clock', '<i class="fa fa-link"></i><span>Clock</span>'))
         ->add(Menu::adminlteSeparator('SECONDARY MENU'))
