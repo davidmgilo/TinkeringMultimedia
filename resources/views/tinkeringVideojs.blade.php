@@ -10,7 +10,9 @@
 		<div class="row">
 			<div class="col-md-9 col-md-offset-1">
 
-                <video src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" id="video1" controls autoplay></video>
+                <video src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" data-setup="{}" id="video1" class="video-js" controls autoplay>
+                    <p class="vjs-no-js">Sorry, el teu navegador no soporta...</p>
+                </video>
 
 			</div>
 		</div>

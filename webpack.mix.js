@@ -24,7 +24,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
        'public/css/adminlte-app.css',
        'node_modules/icheck/skins/square/blue.css',
        'public/css/toastr.css',
-       'node_modules/bootstrap-slider/dist/css/bootstrap-slider.css'
+       'node_modules/bootstrap-slider/dist/css/bootstrap-slider.css',
+       'node_modules/video.js/dist/video-js.css'
    ], 'public/css/all.css')
    .combine([
        'public/css/bootstrap.css',
