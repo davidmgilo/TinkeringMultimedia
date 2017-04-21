@@ -63242,6 +63242,11 @@ var jsonCircles = [{
     "y_axis": 100,
     "radius": 20,
     "color": "red"
+}, {
+    "x_axis": 110,
+    "y_axis": 50,
+    "radius": 20,
+    "color": "blue"
 }];
 
 var svgContainer = d3.select("#d3demo").append("svg").attr("width", 200).attr("height", 200);
